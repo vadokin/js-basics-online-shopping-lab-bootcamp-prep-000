@@ -25,9 +25,8 @@ function viewCart() {
   } else {
     for (let i = 0, len = cart.length; i < len; i++) {
       string += ` ${cart[i].itemName} at \$${cart[i].itemPrice}` +
-                `${cart[i] === len ? '' : ', '}`
+                `${cart[i - 1] === len ? '' : ', '}`
     }
-
     // bananas at $17, pancake batter at $5, and eggs at $49.
     return `In your cart, you have${string}.`
   }
