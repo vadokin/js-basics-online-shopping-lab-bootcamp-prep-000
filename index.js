@@ -9,6 +9,14 @@ function setCart(c) {
   return cart;
 }
 
+// function addToCart(item) {
+//  // write your code here
+//  cart.push(`{
+//    itemName: ${item},
+//    itemPrice: ${ Math.floor(Math.random() * 100 + 1) }
+//  }`)
+// }
+
 function addToCart(item) {
  // write your code here
  cart.push(`{
