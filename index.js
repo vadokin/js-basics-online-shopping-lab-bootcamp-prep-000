@@ -43,6 +43,7 @@ function total() {
 }
 
 function removeFromCart(item) {
+  let curr = ''
   if (item is not in cart) {
     return "That item is not in your cart."
   } else {
