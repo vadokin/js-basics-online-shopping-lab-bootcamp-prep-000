@@ -19,7 +19,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  let str = ''
+  let string = ''
   if (!cart.length) {
     return "Your shopping cart is empty."
   } else {
