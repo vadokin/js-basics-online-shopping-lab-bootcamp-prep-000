@@ -24,9 +24,9 @@ function viewCart() {
     return "Your shopping cart is empty."
   } else {
     for (let i = 0, len = cart.length; i < len; i++) {
-      string += cart[i]
+      string += `cart[i] at \$${}`
     }
-        
+
     bananas at $17, pancake batter at $5, and eggs at $49.
     return `In your cart, you have${string}`
   }
