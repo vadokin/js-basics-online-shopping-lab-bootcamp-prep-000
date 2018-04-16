@@ -22,6 +22,8 @@ function viewCart() {
   // write your code here
   if (!cart.length) {
     return "Your shopping cart is empty."
+  } else {
+    
   }
 }
 
