@@ -46,13 +46,10 @@ function removeFromCart(item) {
   let curr = ''
   for (let i = 0, len = cart.length; i < len; i++) {
     if (cart[i].itemName === item) {
-      
+      cart.slice[]
+    } else {
+      return "That item is not in your cart."
     }
-  }
-  if (item is not in cart) {
-    return "That item is not in your cart."
-  } else {
-
   }
   return cart
 }
