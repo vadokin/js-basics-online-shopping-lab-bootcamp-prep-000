@@ -23,7 +23,7 @@ function viewCart() {
   if (!cart.length) {
     return "Your shopping cart is empty."
   } else {
-    string
+    string += 
     bananas at $17, pancake batter at $5, and eggs at $49.
     return `In your cart, you have${string}`
   }
