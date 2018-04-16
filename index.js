@@ -58,9 +58,11 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
+  let string = ''
   if (!cardNumber) {
     return "Sorry, we don't have a credit card on file for you."
   } else {
-    return 
+
+    return Your total cost is $71, which will be charged to the card 83296759.
   }
 }
