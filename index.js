@@ -44,7 +44,7 @@ function total() {
 
 function removeFromCart(item) {
   let curr = ''
-  for (let i = 0, i < cart.length; i++) {
+  for (let i = 0, len = cart.length; i < len; i++) {
     cart[i]
   }
   if (item is not in cart) {
